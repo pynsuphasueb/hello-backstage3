@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hello-backstage-3
+  description: color of sky
+  annotations:
+    github.com/project-slug: https://github.com/pynsuphasueb/hello-backstage-3
+  links:
+    - url: https://dashboard.example.com
+      title: My Dashboard
+      icon: dashboard
+  tags:
+    - sky
+spec:
+  type: web
+  lifecycle: experimental
+  owner: guests
